@@ -46,18 +46,29 @@ The original data is 'data_od_vc_fdi_ind.csv' in the 'Stata' folder. The followi
 
 
 Stata files is to calculate the two characteristics (Productivity and APW) and do the empirical regression. The following is the relationship between the code files and results used in the MATLAB code and manuscript:
+
   cal_result.do ---> data_ctrl.csv
+  
   cal_result_vc.do ---> data_ctrl_vc.csv
+  
   reg_result.do ---> Table 2 
 
 MATLAB files is to impose the counterfactual experiments. The C*-like files are the functions, in which A, ame, tau and rho denote productivity, amenity, migration friction, and APW respectively. (For example, CA is the counterfactual function for eliminating the divergence of productivity among cities.) The following is the relationship between the code files and results in the manuscript:
 
   Robust_eps.m ---> Figure 2 and 8
+  
   Counterfactual_one.m ---> Figure 3
+  
   Counterfactual_three.m ---> Figure 4
+  
   Externality_A.m ---> Figure 5
+  
   Externality_ame.m ---> Figure 6
+  
   Externality_nochar.m ---> Figure 7
+  
   Counterfactual _education.m ---> Figure 9 and 10
+  
   Robust_vc.m ---> Figure 12
+  
   Robust_ind ---> Figure 11
