@@ -1,5 +1,6 @@
 # EM-APW
-Reproduction code for Economic Modelling
+Reproduction code for Economic Modelling Paper：
+"Antipollution willingness and urban population distribution: Evidence from Chinese cities"
 
 The files include two categories: Stata files and MATLAB files
 
